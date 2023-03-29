@@ -35,8 +35,8 @@ const WorkoutScreen = () => {
                 ))}
             </ScrollView>
 
-            <Pressable onPress={() => navigation.navigate("Fit", { exercises: route.params.exercises })} style={{ backgroundColor: 'dodgerblue', padding: 15, marginLeft: 'auto', marginRight: 'auto', borderRadius: 25, width: 120, marginBottom: 5 }}>
-                <Text style={{ textAlign: 'center', color: 'white', fontSize: 15, fontWeight: 'bold' }}>Begin</Text>
+            <Pressable onPress={() => navigation.navigate("Fit", { exercises: route.params.exercises })} style={{ backgroundColor: 'dodgerblue', padding: 15, marginLeft: 'auto', marginRight: 'auto', borderRadius: 25, width: 250, marginBottom: 5 }}>
+                <Text style={{ textAlign: 'center', color: 'white', fontSize: 18, fontWeight: 'bold' }}>Start Workout</Text>
             </Pressable>
 
         </>

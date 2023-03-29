@@ -78,9 +78,6 @@ export default function HomeScreen({ navigation }) {
             </View>
 
 
-
-
-
             <View style={{ justifyContent: 'center', alignItems: 'center' }}>
                 <Image style={{
                     width: '100%',

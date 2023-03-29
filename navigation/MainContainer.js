@@ -31,11 +31,7 @@ const HomeStackScreen = () => (
   </HomeStack.Navigator>
 )
 
-
-
 const Tab = createBottomTabNavigator();
-
-
 
 function MainContainer() {
   return (

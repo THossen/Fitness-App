@@ -30,7 +30,7 @@ const FitScreen = () => {
                     navigation.navigate("Home")
                 }}
                     style={{ backgroundColor: 'dodgerblue', marginLeft: 'auto', marginRight: 'auto', marginTop: 20, borderRadius: 25, padding: 10, width: 150 }}>
-                    <Text style={{ textAlign: 'center', fontWeight: 'bold', fontSize: 20, color: 'white' }}>Complete</Text>
+                    <Text style={{ textAlign: 'center', fontWeight: 'bold', fontSize: 20, color: 'white' }}>Stop Workout</Text>
                 </Pressable>) : (
 
                 <Pressable onPress={() => {
@@ -46,7 +46,7 @@ const FitScreen = () => {
                     }, 2000)
                 }}
                     style={{ backgroundColor: 'dodgerblue', marginLeft: 'auto', marginRight: 'auto', marginTop: 20, borderRadius: 25, padding: 10, width: 150 }}>
-                    <Text style={{ textAlign: 'center', fontWeight: 'bold', fontSize: 20, color: 'white' }}>Complete</Text>
+                    <Text style={{ textAlign: 'center', fontWeight: 'bold', fontSize: 20, color: 'white' }}>Stop Workout</Text>
                 </Pressable>)}
         </SafeAreaView>
     )
